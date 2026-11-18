@@ -1,0 +1,20 @@
+{
+  "name": "repo-builder-skill",
+  "version": "1.0.0",
+  "description": "Ultra-lightweight Write-Time Architectural Tagging Skill (@arch) for AI Agents. Saves up to 90% in context tokens and feeds repo-visualizer (C4 Model, DER, UML, arc42) with 100% precision.",
+  "license": "MIT",
+  "keywords": [
+    "ai-skill",
+    "agent-skills",
+    "gemini-cli",
+    "antigravity",
+    "claude-code",
+    "c4-model",
+    "architecture",
+    "token-optimization",
+    "repo-visualizer"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
