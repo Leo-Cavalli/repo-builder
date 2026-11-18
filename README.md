@@ -3,12 +3,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Version: 1.0.0](https://img.shields.io/badge/Version-1.0.0-cyan.svg)](./package.json)
 [![Token Economy](https://img.shields.io/badge/Token_Savings-Up_to_90%25-emerald.svg)](#)
-[![Companion Skill](https://img.shields.io/badge/Companion-repo--visualizer-purple.svg)](https://github.com/LeoCardoso01/repo-visualizer)
+[![Companion Skill](https://img.shields.io/badge/Companion-repo--visualizer-purple.svg)](https://github.com/Leo-Cavalli/repo-visualizer)
 
 **Economize até 90% de tokens de leitura e elimine a adivinhação arquitetural ao programar com IA.**  
 O `repo-builder` é uma **Skill Open Source ultra-leve (~250 tokens)** para Agentes de IA (Google Antigravity, Gemini CLI, Claude Code, Cursor, Windsurf, Cline). Ele instrui a IA a anotar o código-fonte em tempo de escrita (*Write-Time*) com tags semânticas **`@arch:*`** compatíveis com JSDoc/TSDoc/Docstrings/Prisma/SQL.
 
-Essas marcações alimentam diretamente o **[`repo-visualizer`](https://github.com/LeoCardoso01/repo-visualizer)** para gerar diagramas **C4 Model (C1, C2, C3, C4)**, **Diagramas Entidade-Relacionamento (DER)**, **Diagramas de Classes UML** e documentação **arc42** com **100% de precisão e zero custo extra de processamento**.
+Essas marcações alimentam diretamente o **[`repo-visualizer`](https://github.com/Leo-Cavalli/repo-visualizer)** para gerar diagramas **C4 Model (C1, C2, C3, C4)**, **Diagramas Entidade-Relacionamento (DER)**, **Diagramas de Classes UML** e documentação **arc42** com **100% de precisão e zero custo extra de processamento**.
 
 ---
 
@@ -68,26 +68,26 @@ export function calculateOrderTax(subtotal: number): number { ... }
 
 ### Opção 1: Via `npx skills` (Recomendado)
 ```bash
-npx skills add LeoCardoso01/repo-builder
+npx skills add Leo-Cavalli/repo-builder
 ```
 
 ### Opção 2: Via `git clone` direto na pasta de Skills da sua IA
 
 - **Google Antigravity / Cursor / Windsurf / Agentes padrão `.agents`:**
   ```bash
-  git clone https://github.com/LeoCardoso01/repo-builder.git ~/.agents/skills/repo-builder
+  git clone https://github.com/Leo-Cavalli/repo-builder.git ~/.agents/skills/repo-builder
   ```
 
 - **Gemini CLI:**
   ```bash
-  git clone https://github.com/LeoCardoso01/repo-builder.git ~/.gemini/skills/repo-builder
+  git clone https://github.com/Leo-Cavalli/repo-builder.git ~/.gemini/skills/repo-builder
   ```
 
 ---
 
 ## 🤝 Ecossistema Recomendado
 
-Para aproveitar todo o poder visual das marcações geradas pelo `repo-builder`, instale também o **[`repo-visualizer`](https://github.com/LeoCardoso01/repo-visualizer)**:
+Para aproveitar todo o poder visual das marcações geradas pelo `repo-builder`, instale também o **[`repo-visualizer`](https://github.com/Leo-Cavalli/repo-visualizer)**:
 
 1. A IA cria/edita o código usando as tags leves do **`repo-builder`**.
 2. O **`repo-visualizer`** lê as tags `@arch:*` instantaneamente e gera o dashboard interativo com Diagramas C4 (C1-C4), DER, UML e documentação arc42 em PDF!
