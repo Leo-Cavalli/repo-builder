@@ -1,7 +1,7 @@
 {
   "name": "repo-builder-skill",
-  "version": "1.0.0",
-  "description": "Ultra-lightweight Write-Time Architectural Tagging Skill (@arch) for AI Agents. Saves up to 90% in context tokens and feeds repo-visualizer (C4 Model, DER, UML, arc42) with 100% precision.",
+  "version": "1.1.0",
+  "description": "Ultra-lightweight Write-Time Architectural Tagging & Incremental Status Skill (@arch + @arch:status pending/modified/read) for AI Agents. Saves up to 90% in context tokens and powers incremental analysis in repo-visualizer.",
   "license": "MIT",
   "keywords": [
     "ai-skill",
@@ -11,6 +11,7 @@
     "claude-code",
     "c4-model",
     "architecture",
+    "incremental-analysis",
     "token-optimization",
     "repo-visualizer"
   ],
