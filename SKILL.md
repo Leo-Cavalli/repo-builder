@@ -127,6 +127,7 @@ class OrderApplicationService:
 3. **Para ler um projeto existente gastando poucos tokens:** Busque primeiro por `@arch:` ou leia `.arch-visualizer/arch-data.json` em vez de abrir dezenas de arquivos completos.
 4. **Para sincronizar o dashboard incrementalmente:**
    ```bash
-   node ~/.agents/skills/repo-visualizer/scripts/analyze_repo.cjs .
+   # Substitua pelo diretório onde a skill está instalada (~/.gemini/skills/ ou ~/.agents/skills/)
+   node "<diretorio-da-skill>/repo-visualizer/scripts/analyze_repo.cjs" .
    ```
    *(O `repo-visualizer` analisará apenas os arquivos `pending`/`modified`, atualizará o JSON e marcará as tags automaticamente como `@arch:status read`!)*
