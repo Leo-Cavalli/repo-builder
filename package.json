@@ -1,6 +1,6 @@
 {
   "name": "repo-builder-skill",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Ultra-lightweight Write-Time Architectural Tagging & Incremental Status Skill (@arch + @arch:status pending/modified/read) for AI Agents. Saves up to 90% in context tokens and powers incremental analysis in repo-visualizer.",
   "license": "MIT",
   "keywords": [

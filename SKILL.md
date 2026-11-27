@@ -124,8 +124,9 @@ class OrderApplicationService:
 
 1. **Ao criar código novo:** Insira o bloco `@arch:*` com `@arch:status pending`.
 2. **Ao alterar código existente (`read`):** Troque `@arch:status read` para `@arch:status modified` sempre que adicionar novas conexões (herança, composição, imports, componentes UI, chaves estrangeiras ou novos métodos/colunas).
-3. **Para ler um projeto existente gastando poucos tokens:** Busque primeiro por `@arch:` ou leia `.arch-visualizer/arch-data.json` em vez de abrir dezenas de arquivos completos.
-4. **Para sincronizar o dashboard incrementalmente:**
+3. **Análise de Impacto Transversal:** Ao alterar uma `utility` ou `service` transversal (Tier 3/4 — ex.: moeda, autenticação, datas, cálculos globais), rastreie todos os `screen` (Tier 1) e `component` (Tier 2) consumidores via *Find All References* ou `.arch-visualizer/arch-data.json` antes de encerrar a tarefa.
+4. **Para ler um projeto existente gastando poucos tokens:** Busque primeiro por `@arch:` ou leia `.arch-visualizer/arch-data.json` em vez de abrir dezenas de arquivos completos.
+5. **Para sincronizar o dashboard incrementalmente:**
    ```bash
    # Substitua pelo diretório onde a skill está instalada (~/.gemini/skills/ ou ~/.agents/skills/)
    node "<diretorio-da-skill>/repo-visualizer/scripts/analyze_repo.cjs" .
